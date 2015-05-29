@@ -4,7 +4,7 @@ My Music Player
 Licensing information: BSD3
 ---
 
-Program Overview
+Overview
 ---------
 This is an Android music player app that is intended to help me learn about Android and Java development.
 
