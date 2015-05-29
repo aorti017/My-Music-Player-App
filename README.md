@@ -6,7 +6,7 @@ Licensing information: BSD3
 
 Overview
 ---------
-This is an Android music player app that is intended to help me learn about Android and Java development.
+This Android app is a project I started to help myself learn more about Android and Java development.
 
 Using the app
 ---------
