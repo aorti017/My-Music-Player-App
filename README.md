@@ -20,6 +20,7 @@ Using the app
 
 Bugs/Limitations
 ---------
+* Only scans for music in ```/storage/extSdCard/Music```.
 * The ```Previous``` button has not been implemented.
 * The files are not displayed and sorted based on metadata.
 
