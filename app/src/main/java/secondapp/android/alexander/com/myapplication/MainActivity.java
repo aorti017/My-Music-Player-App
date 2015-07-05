@@ -1,6 +1,8 @@
 package secondapp.android.alexander.com.myapplication;
 
 import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
@@ -44,10 +46,12 @@ public class MainActivity extends Activity{
     private List<Artist> artists = new ArrayList<>();
     private List<Album> albums = new ArrayList<>();
     private Menu menu;
+    private static final String ACTION_PLAY = "action_play";
+    private static final String ACTION_PAUSE = "action_pause";
+    private static final String ACTION_NEXT = "action_next";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         int display = 2;
         String show_only_album = "";
         String show_only_artist = "";
